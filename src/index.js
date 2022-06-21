@@ -19,6 +19,8 @@ function singleCard(element){
 
     let liEl = document.createElement("li");
     liEl.className = "card"
+    liEl.id = "card";
+
 
     let h2El = document.createElement("h2");
     h2El.className = "card--title"
