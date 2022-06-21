@@ -12,8 +12,8 @@ console.log(data);
 // - Create a card using JS that represents a single pokemon, use the example image as a reference. You will also find an HTML example commented out in the index.html
 
 
-
 function singleCard(element){
+    
     let ulMainEl = document.body.querySelector('.cards');
 
 
@@ -29,6 +29,7 @@ function singleCard(element){
     imgEl.src = element.sprites.other["official-artwork"].front_default
     imgEl.alt = ""
     imgEl.width = 256
+
 
 
     let ulEl = document.createElement("ul")
